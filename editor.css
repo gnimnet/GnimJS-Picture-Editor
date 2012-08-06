@@ -1,0 +1,25 @@
+/*
+ * This CSS file for picture editor JavaScript component
+ * this component works for GnimJS
+ * Write by Ming
+ * Date 2010.12.27
+ */
+
+ /* styles for verison 0.1.0 */
+.editor-con{position:relative;overflow:hidden;border:#333 2px solid;background:#CCC;}
+.editor-con-disable,.editor-con-disable .editor-mask-center{border-color:#777;}
+.editor-con-inner{position:absolute;}
+.editor-con-picture{position:relative;width:100%;height:100%;}
+.editor-picture{position:absolute;display:block;}
+.editor-mask{position:absolute;}
+.editor-mask-left,
+.editor-mask-right,
+.editor-mask-top,
+.editor-mask-bottom{background:#000;}
+.editor-mask-center{border:#000 1px solid;background:none;}
+.editor-drag-layer{position:absolute;left:0;top:0;width:100%;height:100%;background:#FFF;}
+.editor-drag-layer-moving{cursor:move;}
+
+ /* styles verison 0.1.2+ need  */
+.editor-scale{position:relative;overflow:hidden;border:#333 2px solid;background:#CCC;}
+.editor-scale-picture{position:absolute;display:block;}
